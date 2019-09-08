@@ -7,3 +7,14 @@ https://stackabuse.com/creating-a-neural-network-from-scratch-in-python-multi-cl
 
 
 " Evaluating the Impact of Categorical Data Encoding and Scaling on Neural Network Classification Performance: The Case of."
+
+
+Normalization : 
+
+https://medium.com/@urvashilluniya/why-data-normalization-is-necessary-for-machine-learning-models-681b65a05029
+https://visualstudiomagazine.com/articles/2014/01/01/how-to-standardize-data-for-neural-networks.aspx
+https://gawron.sdsu.edu/python_for_ss/course_core/book_draft/visualization/Normal_Distribution.html
+https://jamesmccaffrey.wordpress.com/2019/01/04/how-to-normalize-training-and-test-data-for-machine-learning/
+
+Softmax Implementation
+https://machinelearningmastery.com/how-to-control-neural-network-model-capacity-with-nodes-and-layers/
