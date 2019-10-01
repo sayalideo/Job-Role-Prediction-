@@ -1,0 +1,8 @@
+learning rate = 0.001 train_accuracy = 18,  test_accuracy = 2.7
+
+layers = 30, mini batch size = 512
+epoch = 10 , learning rate = 0.0007 train_accuracy = 24,  test_accuracy = 3
+epoch = 10 , learning rate = 0.0001 train_accuracy = 19,  test_accuracy = 3, not recomm
+epoch = 10 , learning rate = 0.001 train_accuracy = 21,  test_accuracy = 3, not recomm
+
+
