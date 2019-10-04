@@ -1,10 +1,10 @@
 import pandas as pd
 
-#roo        = "./roo_data.csv"
-roo1       = "./roo1.csv"
-df = pd.read_csv(roo1)
-
-#df.drop(['Salary Range Expected','Interested Type of Books'], axis=1, inplace=True)
+roo        = "../Data/roo_data.csv"
+roo1       = "../Data/roo1.csv"
+df = pd.read_csv(roo)
+#talenttests taken? olympiads Type of company want to settle in? Percentage in Electronics Subjects Interested subjects 
+df.drop(['Salary Range Expected','Interested Type of Books','talenttests taken?','olympiads','Type of company want to settle in?','Percentage in Electronics Subjects','Interested subjects'], axis=1, inplace=True)
 
 print(df.shape)
 
