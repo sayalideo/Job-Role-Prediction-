@@ -2,18 +2,17 @@ import pandas as pd
 roo = "../Data/roo1.csv"
 df = pd.read_csv(roo)
 
-percent = {'Suggested Job Role_Business Intelligence Analyst': 3888, 'Suggested Job Role_Database Administrator': 1743, 'Suggested Job Role_Project Manager': 2343, 'Suggested Job Role_Security Administrator': 3467, 'Suggested Job Role_Software Developer': 3967, 'Suggested Job Role_Software Quality Assurance (QA) / Testing': 1135, 'Suggested Job Role_Technical Support': 2273, 'Suggested Job Role_UX Designer': 1176}
-
+percent = {'Suggested Job Role_Business Intelligence Analyst': 3888, 'Suggested Job Role_Database Administrator':  1743, 'Suggested Job Role_Project Manager': 4098, 'Suggested Job Role_Security Administrator': 3467, 'Suggested Job Role_Software Developer': 3967, 'Suggested Job Role_Technical Support': 2831}
 title = list(df.columns)
 mapp  = {}
-for i in range(68,76):
+for i in range(93,99):
     mapp[title[i]] = 0
 title = title[68:]
 
 count = {}
 
 for job,p in percent.items():
-    percent[job]=p*3//4
+    percent[job]=p*0.8
     count[job]=0
 
 tr = []
@@ -21,7 +20,7 @@ ts = []
 
 n = df.shape[0]
 for x in range(n):
-    row = df.iloc[x,68:]
+    row = df.iloc[x,93:]
     r = row['Suggested Job Role_Business Intelligence Analyst':]
     #print('r',r)
     
